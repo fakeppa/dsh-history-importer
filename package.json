@@ -1,0 +1,31 @@
+{
+  "name": "wb2dsh",
+  "version": "1.0.0",
+  "description": "Import WorkBuddy / Claude Code chat history into a DeepSeek Harness (DSH) session library as native, UI-renderable v4 sessions.",
+  "type": "module",
+  "bin": {
+    "wb2dsh": "bin/wb2dsh.mjs"
+  },
+  "exports": {
+    ".": "./lib/format.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "docs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "workbuddy",
+    "claude-code",
+    "chat-history",
+    "migration",
+    "session-import"
+  ],
+  "license": "MIT"
+}
